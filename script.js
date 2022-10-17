@@ -7,11 +7,10 @@ if (valor1 > valor2) {
     `O maior numero é ${valor1} e a diferença é ${valor1 - valor2}`
   );
 } else {
-  if (valor1 < valor2) {
-    let valor1Maior2 = alert(
-      `O maior numero é ${valor2} e a diferença é ${valor2 - valor1}`
-    );
-  }
+  valor1 < valor2;
+  let valor1Maior2 = alert(
+    `O maior numero é ${valor2} e a diferença é ${valor2 - valor1}`
+  );
 }
 
 /// ---> 2 <--- ///
@@ -99,7 +98,7 @@ let resultado = alert(
   `$${valoDolar} é equivalente a R$${valorReal}, tendo ${cotacao} de cotação`
 );
 
-/// ---> 8 <--- ///                             INCOMPLETO/HELP
+/// ---> 8 <--- ///
 
 let praga = prompt(
   "Para qual praga? 1. Ervas daninhas, 2. gafanhotos, 3. broca ou 4. todas"
@@ -199,4 +198,3 @@ if (tempo_ == 0) {
     let saida_ = alert(`R$${prestacao}`);
   }
 }
-
